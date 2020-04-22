@@ -1,0 +1,70 @@
+#infoscore >tr > td{
+	border: 2px solid;
+	color: white;
+	text-align:center;
+}
+#buttonNG, #buttonRS, #buttonS, #saveSelect ,#buttonC{
+	color:black;
+	position: fixed;
+	width: 21%;
+	height: 5%;
+	border:none;
+	border-radius: 3px;
+	background-color:#f1f1f1;
+	font-family:"serif";
+	font-size:20px;
+}
+#buttonNG {
+	bottom: 20px;
+}
+#buttonS {
+	bottom: 100px;
+}
+#buttonRS {	
+	bottom: 60px;
+}
+#saveSelect  {
+	bottom: 140px;
+	width: 15%;
+}
+ #buttonC {
+
+	bottom: 140px;
+	left:240px;
+	width: 5.5%;
+	color:black;
+	background-color:lightgray;
+}
+
+#information{
+	position: relative;
+	color:white;
+	left: 500px;
+	font-family:"serif";
+	font-size:40px; 
+	font-weight:bold; 
+	line-height:5%;
+}
+#infoscore  {
+	position: relative; 
+	top:-600px;
+	left: 15px;
+	border-collapse: collapse;
+	width: 20%;
+	height: 15%;
+	background-image: url(boisc.jpg);
+	font-size:25px; 
+}
+body {
+	background-image: url(boisS.jpg);
+	background-size:contain; 
+}
+#grillejeu{
+	border-radius:5%;
+	text-align:center;
+	background-image: url(boiscl.jpg);
+	background-size: contain;
+	width:50%; 
+	height:90%;
+	margin-left: 25%; 
+}
